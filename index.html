@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nouhaila's website</title>
+        <meta name="viewport" content="width=devie-width, initial-scale=1">
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+	    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logo-image animate-left">
+                <img src="siteimage/mylogo.png">
+        </a>
+            
+            <div id="menu-overlay" class="menuoverlay container">
+                <ul onclick="fonction()">
+                    <li><a class="underlined nav-link activee" href="#hero">Home</a></li>
+                    <li><a class="underlined nav-link" href="#about">About</a></li>
+                    <li><a class="underlined nav-link" href="#categories">Portfolio</a></li>
+                    <li><a class="underlined nav-link" href="#blog">Blog</a></li>
+                    <li><a class="underlined nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="toggle" id="Menu" onclick="toggle()">
+                <span class="one"></span>
+                <span class="two"></span>
+                <span class="three"></span>
+                <span class="four"></span>
+            </div>
+        </header>
+        <section class="hero" id="hero">
+            <div class="conntainer">
+              <h2 class="sub-headline"><span class="first-letter">N</span>ouhaila</h2>
+              <h1 class="headline">berreguig</h1>
+              <div class="headline-description">
+                <div class="separator">
+                  <div class="line line-left"></div>
+                  <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                  <div class="line line-right"></div>
+                </div>
+                <div class="single-animation">
+                  <h5>Web designer | Logo maker</h5>
+                  <a href="#contact" class="bbtn cta-btn">Let's get in touch! </a>
+                </div>
+              </div>
+            </div>
+          </section>
+           <!-----------ABOUT------------>
+		<section class="about" id="about">
+			
+			
+			<div class="container-about">
+		        <h1 class="subtitle">about</h1>
+				<div class="border animate-right"></div>
+				<div class="about-img"></div>
+			   <p class="aboutme">Hi there! Nouhaila BERREGUIG ,she is a 23 years old passionate girl based in Morocco(MA). Web design and making logos are what she's passionate about. 
+				 <br>And you can find more about her on <a class="instagram" href="https://www.instagram.com/dahaappy/" title="follow me on instagram" style="color:#89a6a1; font-weight: bolder;">instagram</a>.<br>
+				 <a href="#contact" title="Contact me" style="color:#89a6a1; font-weight: bolder;">Let's get in touch</a> if you want to work together.</p>
+				 <!-- <div class="social-media">
+						 <li><a href="https://www.facebook.com/nouhaila.berreguig.7"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						 <li><a href="https://www.instagram.com/dahaappy/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						 <li><a href="https://twitter.com/NBerreguig"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				  </div>-->
+			</div>
+        </section>
+
+
+
+        <footer id="footer">
+            <div class="container">
+              <div class="back-to-top">
+                <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+              </div>
+              <div class="footer-content">
+                <div class="cpr animate-bottom"> Made by Nouhaila with ♥ All rights reserved.</div>
+              </div>
+            </div>
+          </footer>
+          <script src="script.js"></script>
+        </body>
+
+</html>
