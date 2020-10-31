@@ -62,15 +62,15 @@ header{
   }
   header .toggle .one{
     width: 15px;
-    background: white;
+    background: var(--main-font-color-dark);
   }
   header .toggle .three{
-    background:  #89a6a1;
+    background:  #142638;
     width: 25px;
   }
   header .toggle .four{
     width: 40px;
-    background-color: white;
+    background-color: var(--main-font-color-dark);
   }
   header .toggle .three:hover{
     background: #89a6a1;
@@ -179,6 +179,9 @@ header{
 .scrolling-active .menuoverlay ul li a::after{
     background-color: #313131;
 }
+.scrolling-active .toggle .three:hover{
+    background: #f1f1f1;
+  }
 
   /*hero*/
 .hero {
@@ -455,7 +458,7 @@ footer {
       }
     header .toggle{
           display: block;
-          padding: 15px;
+          padding: 17px;
           position: fixed;
           width: 40px;
           right: 30px;
